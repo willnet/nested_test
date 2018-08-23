@@ -1,0 +1,6 @@
+u = User.create!(name: 'willnet')
+u.posts.create!(title: 'willnet first post')
+u.posts.create!(title: 'willnet second post')
+u = User.create!(name: 'maeshima')
+u.posts.create!(title: 'maeshima first post')
+u.posts.create!(title: 'maeshima second post')
